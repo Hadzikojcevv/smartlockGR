@@ -23,7 +23,7 @@ export default function LocaleSwitcher() {
           <li key={locale}>
             <Link
               href={redirectedPathName(locale)}
-              className=''
+              scroll={false}
             >
               <Image src={Boolean(locale === 'en') ? "https://i.imgur.com/zUSSj3B.png" : "https://i.imgur.com/hgTegHx.png"} alt={locale} height={45} width={45} className='rounded-full zoom'/>
             </Link>

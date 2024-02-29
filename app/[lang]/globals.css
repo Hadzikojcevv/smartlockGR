@@ -10,12 +10,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #e9e9ea;
   font-family: "Montserrat", sans-serif;
-
+  padding-top: 101px;
 }
 
 .bodyBG {
@@ -110,6 +111,30 @@ body {
 
 .zoom:hover {
   transform: scale(1.15);
+}
+
+.inputs{
+  border: 2px solid #526AC2;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.btn{
+  background-color: #526AC2;
+  border: 2px solid transparent;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 2px solid #526AC2;
+  color: #526AC2 !important;
+}
+
+footer {
+  color: white
 }
 
 @media only screen and (max-width: 600px) {

@@ -6,7 +6,12 @@
     "page": {
       "home": {
         "title": "Smart",
-        "title2": "Lock"
+        "title2": "Lock",
+        "btn": "Επικοινωνία!",
+        "form": {
+          "title": "Επικοινωνία!",
+          "desc": "παρε προσφορα!"
+        }
       },
       "about": {
         "title": "About Us",
@@ -14,6 +19,9 @@
       }
     },
     "footer": {
-      
+      "contact" : "Επικοινωνία:",
+      "name": "Victor Stavrev",
+      "tel": "Τηλέφωνο:",
+      "email": "E-Mail:"
     }
   }

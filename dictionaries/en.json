@@ -6,10 +6,18 @@
     "page": {
       "home": {
         "title": "Smart",
-        "title2": "Lock"
-
+        "title2": "Lock",
+        "btn": "Contact Us",
+        "form": {
+          "title": "Contact Us!",
+          "desc": "Let's get in touch!"
+        }
       }
     },
     "footer": {
+      "contact" : "Contact:",
+      "name": "Viktor Stavrev",
+      "tel": "Phone:",
+      "email": "E-mail:"
     }
   }

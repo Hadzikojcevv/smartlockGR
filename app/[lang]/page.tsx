@@ -1,6 +1,7 @@
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
 import Listing from "../Components/Listing/Listing";
+import Form from "../Components/Form/Form";
 
 export default async function Home({
   params: { lang },
@@ -13,6 +14,7 @@ export default async function Home({
     <>
 
       <Listing lang={page}/>
+      <Form lang={page} />
     </>
   );
 }

@@ -14,6 +14,10 @@ type LockItemProps = {
 };
 
 const LockItem = ({ lock: { title, desc, image }, index, lang }: LockItemProps) => {
+
+  console.log(lang);
+  
+
   return (
     <div className={`relative m-auto`}>
       <div className="m-auto w-full flex flex-col lg:flex-row justify-between gap-8 md:gap-10 lg:gap-12 items-center py-12">
@@ -48,10 +52,6 @@ const LockItem = ({ lock: { title, desc, image }, index, lang }: LockItemProps) 
               <h2 className="uppercase font-semibold text-5xl lg:text-7xl tracking-tighter basis-1/2">
                 {title}
               </h2>
-              {/* <div className="basis-1/2 flex flex-wrap gap-2 md:gap-4 overflow-hidden">
-                {desc.map(singleDesc => <Icon key={singleDesc.title} icon={singleDesc} />)}
-                
-              </div> */}
             </div>
 
               <DescriptionListing items={desc} lang={lang}/>
@@ -60,7 +60,7 @@ const LockItem = ({ lock: { title, desc, image }, index, lang }: LockItemProps) 
               href={"/"}
               className="py-4 px-8 font-semibold uppercase bg w-fit rounded-full text-color border-2 hover:border-custom hover:text-custom hover:bg-bg-light transition-colors ease-in-out "
             >
-              Contact Us
+              {lang.home.btn}
             </Link>
           </div>
         </div>

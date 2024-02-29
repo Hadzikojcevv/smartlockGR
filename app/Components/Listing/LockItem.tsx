@@ -15,9 +15,6 @@ type LockItemProps = {
 
 const LockItem = ({ lock: { title, desc, image }, index, lang }: LockItemProps) => {
 
-  console.log(lang);
-  
-
   return (
     <div className={`relative m-auto`}>
       <div className="m-auto w-full flex flex-col lg:flex-row justify-between gap-8 md:gap-10 lg:gap-12 items-center py-12">
@@ -57,7 +54,7 @@ const LockItem = ({ lock: { title, desc, image }, index, lang }: LockItemProps) 
               <DescriptionListing items={desc} lang={lang}/>
             
             <Link
-              href={"/"}
+              href={"#form"}
               className="py-4 px-8 font-semibold uppercase bg w-fit rounded-full text-color border-2 hover:border-custom hover:text-custom hover:bg-bg-light transition-colors ease-in-out "
             >
               {lang.home.btn}

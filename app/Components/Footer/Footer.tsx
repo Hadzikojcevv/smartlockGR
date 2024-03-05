@@ -17,14 +17,14 @@ const Footer = async ({ lang }: any) => {
         </div>
 
         <div className="text-white">
-          <h2 className="font-semibold text-xl">{page.footer.contact}</h2>
-          <p className="font-semibold text-xl">{page.footer.name}</p>
-          <a href="tel:+306989591583" className="font-semibold block">
+          <h2 className="font-semibold text-md lg:text-xl">{page.footer.contact}</h2>
+          <p className="font-semibold text-md lg:text-xl">{page.footer.name}</p>
+          <a href="tel:+306989591583" className="font-semibold block text-sm">
             {page.footer.tel} <span className="underline">+306989591583</span>
           </a>
           <a
             href="mailto:contact.smartlocks@gmail.com"
-            className="font-semibold block"
+            className="font-semibold block text-sm"
           >
             {page.footer.email}{" "}
             <span className="underline">contact.smartlocks@gmail.com</span>

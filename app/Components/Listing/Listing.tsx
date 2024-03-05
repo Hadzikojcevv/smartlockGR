@@ -24,7 +24,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: "Δική σας Smart APP",
+        title: "Tuya Smart App",
         titleEng: "Tuya Smart App",
         icon: "https://i.imgur.com/Ye1Odnj.png",
       },
@@ -61,7 +61,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: "Δική σας Smart APP",
+        title: "Tuya Smart App",
         titleEng: "Tuya Smart App",
         icon: "https://i.imgur.com/Ye1Odnj.png",
       },
@@ -103,12 +103,12 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/CfCdiEW.png",
       },
       {
-        title: "Μηχανικό κλειδ",
+        title: "Μηχανικό κλειδί",
         titleEng: "Mechanical Key",
         icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: "Δική σας Smart APP",
+        title: "Tuya Smart App",
         titleEng: "Tuya Smart App",
         icon: "https://i.imgur.com/Ye1Odnj.png",
       },
@@ -150,7 +150,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: "Δική σας Smart APP",
+        title: "Tuya Smart App",
         titleEng: "Tuya Smart App",
         icon: "https://i.imgur.com/Ye1Odnj.png",
       },
@@ -160,7 +160,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/eSGcUPE.png",
       },
       {
-        title: "Στεγανοποίηση εξωτερικού χώρου",
+        title: "Αδιάβροχο",
         titleEng: "Waterproof",
         icon: "https://i.imgur.com/pic3npc.png",
       },
@@ -197,7 +197,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: "Ξεκλείδωμα Tuya Smart APP",
+        title: "Tuya Smart APP",
         titleEng: "Tuya Smart App",
         icon: "https://i.imgur.com/Ye1Odnj.png",
       },
@@ -259,7 +259,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: "Ξεκλείδωμα Tuya Smart APP",
+        title: "Tuya Smart APP",
         titleEng: "Tuya Smart App",
         icon: "https://i.imgur.com/Ye1Odnj.png",
       },
@@ -321,7 +321,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/wq47S5y.png",
       },
       {
-        title: "Ξεκλείδωμα Tuya Smart APP",
+        title: "Tuya Smart APP",
         titleEng: "Tuya Smart App",
         icon: "https://i.imgur.com/Ye1Odnj.png",
       },
@@ -346,7 +346,7 @@ export const locks: LockType[] = [
         icon: "https://i.imgur.com/g2O8IRc.png",
       },
       {
-        title: "Ξεκλείδωμα τηλεχειριστηρίου κινητού τηλεφώνο",
+        title: "Ξεκλείδωμα τηλεχειριστηρίου κινητού τηλεφώνου",
         titleEng: "Remote Unlocking via Mobile Phone",
         icon: "https://i.imgur.com/8b3R4Fc.png",
       },
